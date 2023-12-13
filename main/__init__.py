@@ -15,9 +15,9 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 API_ID = config("22330771", default=None, cast=int)
 API_HASH = config("5961c742f33534c68418694e08a776f7", default=None)
 BOT_TOKEN = config("6787784929:AAE44K3JCBDbT2JPa7ONqLA7AvZVRQytnLw", default=None)
-SESSION = config("BQCmRV-FqBnnDVRstZLrIZd41Eg5p0hYv2vKsfJz_Y8mOR35Q20_JHbyE6b1DNv3nJcRwzYMJIBCayV77n1Evg01LO-Uw7RbLit-bNXW5dsnF4-9eSFagAqoNdr0Sz5lc8y3XbkP0VjFY-TGJc7u2Zw2Ww6cuNGP5rslP02JZk71q1_Z0P7caN3nnABHJGVm1Gh-Vd9KjrMC2POj7-UdgOrAGZcGyKf5Mr-Ex8ZtPuWRX3Ai5SV0Z6uOuhhTr-UwFr9gs9Jpm5zp31ljiMks4FkFwK6gxj0YWfrXVdps1vYfxTERCePNsvHU8fOZ1uqvQDTQsskQcTVIIryFn8DYS-I1AAAAATaM_jsA", default=None)
+SESSION = config("BQCK6qGNMTOYX3aUyJaGn6QZPX739G21afoW14VXjEeDVOw1IGqIWTgpfvo5jfRSURN1B7HPSWviMSus6iNj3SvPclJkieBFLZVjZ-uiR2v-fzz4duVWaf4mWuXgOJJ6gQl3oUE0qQogAPR1O7EEcFk91ydebtWacAzcSPddWr7Or-lCsOJEM0wqEdk2hBWfE9Vaf3HBeioJsKIB3TQ2j4HUgwMhASe_fUmDY5hmUHbxucStyK6v1HkpQMzWVNlgDKmWoXtSEt5EpzIAmGntKXnyGOJoy8QxiwgNt7bbXhdAbDFN1YLcduMROE-azEmhp-mLtopUf7AMG39hSsUUcs0UAAAAATaM_jsA", default=None)
 FORCESUB = config("tiktokviralbarue", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+AUTH = config("1281619082", default=None, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
